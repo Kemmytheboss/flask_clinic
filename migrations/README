@@ -1,0 +1,35 @@
+Single-database configuration for Flask.
+# flask_clinic
+Flask Clinic Management System
+
+A simple Flask application demonstrating a Doctor–Patient–Specialty–Appointment relational system using SQLAlchemy and Flask-Migrate.
+
+This project is intended for learning, testing, or demo purposes.
+
+Features
+
+Models:
+
+Specialty: Represents medical specialties (Cardiology, Neurology, etc.)
+
+Doctor: Belongs to a specialty, can have multiple appointments
+
+Patient: Can have multiple appointments
+
+Appointment: Links a doctor and a patient with a scheduled date
+
+Uses Flask SQLAlchemy for ORM
+
+Database migrations handled via Flask-Migrate
+
+Modular project structure (models.py, app.py)
+
+Requirements
+
+Python 3.8+
+
+Flask
+
+Flask-SQLAlchemy
+
+Flask-Migrate
